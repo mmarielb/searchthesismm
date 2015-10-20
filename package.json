@@ -4,7 +4,7 @@
   "description": "Desarrollo de un sistema de recuperación de información multimedia, basado en bases de datos NoSQL",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js --exec babel-node",
+    "start": "nodemon index.js --exec babel-node",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -16,7 +16,9 @@
   "author": "Marielb Márquez <mmarielb@gmail.com",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.14.1",
     "express": "^4.13.3",
+    "method-override": "^2.3.5",
     "mongoose": "^4.1.12"
   }
 }
