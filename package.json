@@ -12,9 +12,10 @@
     "mongodb",
     "gridfs"
   ],
-  "author": "Marielb Márquez",
+  "author": "Marielb Márquez <mmarielb@gmail.com",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.13.3",
     "mongoose": "^4.1.12"
   }
 }
